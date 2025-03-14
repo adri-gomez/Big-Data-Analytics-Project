@@ -41,16 +41,18 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
   - Statistical tests
   - Distribution of the variables
   - Identifying outliers via histograms and boxplots
+  - Encoding for categorical variables
+  - Feature scaling: normalization
 - Dimensionality Reduction
 - Experimental Design
   - Splitting the data into training and test sets
-  - Dealing with imbalancing
+  - Dealing with imbalancing: SMOTE and random undersampling
   - Cross-validation
 - Modeling
   - Logistic Regression
   - Random Forest
   - Gradient Boosting
-- Performance Evaluation
+- Performance evaluation metrics
   - Accuracy, recall, precision, F1
   - AUC ROC
   - Confusion matrix
