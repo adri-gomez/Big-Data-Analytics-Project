@@ -23,13 +23,38 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
 
 
 ## Tentative stages of the project
-Initial Analysis
-Exploratory Data Analysis
-Dimensionality Reduction
-Experimental Design
-Modeling
-Evaluation
-Improving the models
-Conclusions
+- Data understanding
+  - Data definitions
+  - Number of observations
+  - Number of variables
+  - Identification of target variable
+  - Imbalance in the dependent variable
+  - Identify numeric and categorical variables
+  - Assigning appropriate column names
+- Data preparation
+  -  Identifying missing values and duplicates
+  -  Checking for errors and inconsistencies
+  -  Checking for data types
+- Exploratory Data Analysis
+  - Generating summary statistics
+  - Correlation analysis
+  - Statistical tests
+  - Distribution of the variables
+  - Identifying outliers via histograms and boxplots
+- Dimensionality Reduction
+- Experimental Design
+  - Splitting the data into training and test sets
+  - Dealing with imbalancing
+  - Cross-validation
+- Modeling
+  - Logistic Regression
+  - Random Forest
+  - Gradient Boosting
+- Performance Evaluation
+  - Accuracy, recall, precision, F1
+  - AUC ROC
+  - Confusion matrix
+- Improving the models
+- Conclusions
 
 ## Content of the repository
