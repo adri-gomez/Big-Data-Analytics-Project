@@ -23,5 +23,13 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
 
 
 ## Tentative stages of the project
+Initial Analysis
+Exploratory Data Analysis
+Dimensionality Reduction
+Experimental Design
+Modeling
+Evaluation
+Improving the models
+Conclusions
 
 ## Content of the repository
