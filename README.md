@@ -60,34 +60,37 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
 - Conclusions
 
 ## Content of the repository
-1) Big_Data_Analytics_Project EDA Feb10.ipynb: first EDA file completed on February 10, 2025
-2) Big_Data_Analytics_Project Initial Results Mar17.ipynb: initial python code that includes:
+1) Data_Transformation_&_Modeling_Mar16.ipynb: initial results in python code that includes:
   - Importing and reading the dataset
   - Renaming columns
-  - Counting the number of rows
-  - Validating data information and data types
-  - Checking missing values
-  - Identifying duplicate records
   - Identifying errors and relocating them in the appropriate category.
-  - Creating histograms for categorical variables
   - Applying one-hot encoding to categorical variables
-  - Displaying Pearson correlation matrix for numeric variables
   - Printing summary statistics for numeric variables
-  - Visualizing boxplots for numeric variables
   - Defining function to replace outliers with the median
   - Applying the function to the columns with outliers
   - Normalizing the numeric attributes
   - Splitting data into training and testing sets: training set 70%, test set 30%
   - Applying SMOTE to transform the dataset
   - Applying random undersampling to transform the dataset
-  - Initializing the logistic regression model as baseline model
   - Performing cross-validation on the training set
-  - Training the logistic regression model on the full training set
+  - Initializing the logistic regression, Random Forest and Gradient Boosting models
+  - Training the models on the full training set
   - Making predictions on the test set
   - Calculating evaluation metrics: accuracy, recall, precision
   - Confusion matrix
+2) Data_Transformation_&_Modeling_Mar16.pdf: PDF version of the previous file
 3) Dataset - default of credit card clients.xls: this is the working dataset in excel format
-4) EDA Report for Default of Credit Card Clients.html: EDA Report in html format created using Ydata Profiling
-5) EDA_Report_Ydata_Profiling.ipynb: code in python to create EDA report in Ydata Profiling
-6) Outliers.ipynb: python code that contains visualizations to identify outliers. Outliers for numeric variables are identified using boxplots. For categorical variables, histograms are used. Outliers for numeric variables were replaced with the median.
-7) README.md: file listing the tentative stages of the project and outlining the content of the repository
+4) EDA_Mar16.ipynb:
+  - Renaming columns
+  - Counting the number of rows
+  - Validating data information and data types
+  - Checking missing values
+  - Identifying duplicate records
+  - Histograms for categorical variables
+  - Boxplots for numeric variables
+5) EDA_Mar16.pdf: PDF version of the previous file.
+6) EDA_Report_Ydata_Profiling.ipynb: code in python to create EDA report in Ydata Profiling
+7) EDA_Report_Ydata_Profiling.html: EDA Report in html format created using Ydata Profiling
+8) Outliers_Mar16.ipynb: python code that contains visualizations to identify outliers. Outliers for numeric variables are identified using boxplots. For categorical variables, histograms are used. Outliers for numeric variables were replaced with the median.
+9) Outliers_Mar16.pdf: PDF version of the previous file.
+10) README.md: file listing the tentative stages of the project and outlining the content of the repository
