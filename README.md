@@ -24,29 +24,53 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
 
 ## Stages of the project
 1) Data Preparation
+   
   1.1) Programing tool
+  
   1.2) Data errors
+  
 2) Exploratory Analysis
+   
   2.1) Categorical variables
+  
     2.1.1) Outliers for categorical variables
+    
     2.1.2)Correlations among categorical variables
+    
   2.2)Numeric variables
+  
     2.2.1) Outliers for numeric variables
+    
     2.2.2) Feature engineering
+    
     2.2.3) Correlations among numeric variables
+    
 3) Data Preprocessing
+   
   3.1) Dimensionality reduction
+  
   3.2) Encoding for categorical variables
+  
   3.3) Feature scaling
+  
 4) Modeling
+   
   4.1) Train-test strategy
+  
   4.2) Approach for class imbalance
+  
   4.3) Predictive models
+
   4.4) Hyperparameter tuning
+  
   4.5) Cross-validation
+  
 5) Evaluation
+   
   5.1) Confusion matrix
+  
   5.2) Evaluation metrics
+  
   5.3) Feature importance
 
 
