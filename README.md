@@ -3,7 +3,7 @@ Credit Card Default Prediction
 
 ## Table of Contents
 - Data Description
-- Tentative stages of the project
+- Stages of the project
 - Content of the repository
 
 ## Data Description
@@ -22,69 +22,58 @@ Variable information:
 There are 24 explanatory variables with no duplicate or missing values. Gender, education, marital status, history of past payments and credit default are classified as categorical variables. ID, credit amount, age, amount of billed statements and amount of previous payments are numeric variables.
 
 
-## Tentative stages of the project
-- Data understanding
-  - Data definitions
-  - Number of observations
-  - Number of variables
-  - Identification of target variable
-  - Imbalance in the dependent variable
-  - Identify numeric and categorical variables
-  - Assigning appropriate column names
-- Data preparation
-  -  Identifying missing values and duplicates
-  -  Checking for errors and inconsistencies
-  -  Checking for data types
-- Exploratory Data Analysis
-  - Generating summary statistics
-  - Correlation analysis
-  - Statistical tests
-  - Distribution of the variables
-  - Identifying outliers via histograms and boxplots
-  - Encoding for categorical variables
-  - Feature scaling: normalization
-- Dimensionality Reduction
-- Experimental Design
-  - Splitting the data into training and test sets
-  - Dealing with imbalancing: SMOTE and random undersampling
-  - Cross-validation
-- Modeling
-  - Logistic Regression
-  - Random Forest
-  - Gradient Boosting
-- Performance evaluation metrics
-  - Accuracy, recall, precision, F1
-  - AUC ROC
-  - Confusion matrix
-- Improving the models
-- Conclusions
+## Stages of the project
+Data Preparation
+  Programing tool
+  Data errors
+Exploratory Analysis
+  Categorical variables
+    Outliers for categorical variables
+    Correlations among categorical variables
+  Numeric variables
+    Outliers for numeric variables
+    Feature engineering
+    Correlations among numeric variables
+Data Preprocessing
+  Dimensionality reduction
+  Encoding for categorical variables
+  Feature scaling
+Modeling
+  Train-test strategy
+  Approach for class imbalance
+  Predictive models
+  Hyperparameter tuning
+  Cross-validation
+Evaluation
+  Confusion matrix
+  Evaluation metrics
+  Feature importance
+
 
 ## Content of the repository
-1) Data_Transformation_&_Modeling_Mar16.ipynb: initial results in python code that includes:
+1) Final_results.ipynb: python code that includes all stages of the project
   - Importing and reading the dataset
-  - Renaming columns
   - Identifying errors and relocating them in the appropriate category.
   - Applying one-hot encoding to categorical variables
   - Printing summary statistics for numeric variables
-  - Defining function to replace outliers with the median
-  - Applying the function to the columns with outliers
   - Normalizing the numeric attributes
   - Splitting data into training and testing sets: training set 70%, test set 30%
   - Applying SMOTE to transform the dataset
-  - Applying random undersampling to transform the dataset
   - Performing cross-validation on the training set
   - Initializing the logistic regression, Random Forest and Gradient Boosting models
   - Training the models on the full training set
   - Making predictions on the test set
-  - Calculating evaluation metrics: accuracy, recall, precision
+  - Applying hyperparameter tuning
+  - Calculating evaluation metrics: accuracy, recall, precision, f1 score, AUC ROC
   - Confusion matrix
     
-2) Data_Transformation_&_Modeling_Mar16.pdf: PDF version of the previous file
+2) Final_results.pdf: PDF version of the previous file
+
+3) Dataset - default of credit card clients.csv: this is the working dataset in csv format
    
 4) Dataset - default of credit card clients.xls: this is the working dataset in excel format
    
-6) EDA_Mar16.ipynb: it includes:
-  - Renaming columns
+5) EDA.ipynb: it includes:
   - Counting the number of rows
   - Validating data information and data types
   - Checking missing values
@@ -92,14 +81,10 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
   - Histograms for categorical variables
   - Boxplots for numeric variables
     
-5) EDA_Mar16.pdf: PDF version of the previous file.
+6) EDA.pdf: PDF version of the previous file.
    
-6) EDA_Report_Ydata_Profiling.html: EDA Report in html format created using Ydata Profiling
+7) EDA_Report_Ydata_Profiling.html: EDA Report in html format created using Ydata Profiling
 
-7) EDA_Report_Ydata_Profiling.ipynb: code in python to create EDA report in Ydata Profiling
+8) EDA_Report_Ydata_Profiling.ipynb: code in python to create EDA report in Ydata Profiling
 
-8) Outliers_Mar16.ipynb: python code that contains visualizations to identify outliers. Outliers for numeric variables are identified using boxplots. For categorical variables, histograms are used. Outliers for numeric variables were replaced with the median.
-
-9) Outliers_Mar16.pdf: PDF version of the previous file.
-
-10) README.md: file listing the tentative stages of the project and outlining the content of the repository
+9) README.md: file listing the stages of the project and outlining the content of the repository
