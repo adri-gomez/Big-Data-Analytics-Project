@@ -24,16 +24,11 @@ There are 24 explanatory variables with no duplicate or missing values. Gender, 
 
 ## Stages of the project
 1) Data Preparation
-   
-  1.1) Programing tool
-  
-  1.2) Data errors
-  
+  #1.1) Programing tool
+  #1.2) Data errors
 2) Exploratory Analysis
-   
-  2.1) Categorical variables
-  
-    2.1.1) Outliers for categorical variables
+  #2.1) Categorical variables
+      ##2.1.1) Outliers for categorical variables
     
     2.1.2)Correlations among categorical variables
     
